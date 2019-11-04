@@ -2,12 +2,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <meta charset="utf-8">
     <title>My webpage</title>
   </head>
   <body>
 
+<!-- TODO: make a navbar with unordered list -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">My resturant</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,13 +17,35 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="menucard.html">Menucard</a></li>
-        <li class="nav-item active"><a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item active"><a class="nav-link" href="menucard.html">Menucard<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
       </div>
     </nav>
 
+    <!-- TODO: make a table for the Menucard -->
+    <div class="container">
+      <div id="Menucard">
+        <table>
+          <tr>
+            <div class="tableeheader">
+            <th>Name</th>
+            <th>Price</th>
+            </div>
+          </tr>
+          <tr class="tablebody">
+            <td>Pizza</td>
+            <td>10$</td>
+          </tr>
+          </div>
+          <tr class="tablebody">
+              <td>Spaghetti</td>
+              <td>8,5$</td>
+            </tr>
+        </table>
+      </div>
+    </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
