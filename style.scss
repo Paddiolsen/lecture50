@@ -1,3 +1,5 @@
+$color = lightgrey;
+
 table{
   border: 2px solid black;
   border-collapse: collapse;
@@ -9,11 +11,11 @@ th, td {
   text-align: center;
 }
 th{
-  background-color: lightgrey;
+  background-color: {$color};
 }
 .jumbotron{
   background-image: url("../img/vacation-2302009_1920.jpg");
-  background-size: cover;
+  background-size: 100%;
   margin-bottom: 0px;
 }
 
