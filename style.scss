@@ -1,6 +1,18 @@
 $color = lightgrey;
+$inheritance {
+    color: blue;
+    font-size: 12px;
+}
+
+div{
+    font-size: 18px;
+    p{
+        color: green;
+    }
+}
 
 table{
+  @extend %inheritance;
   border: 2px solid black;
   border-collapse: collapse;
   width: 50%;

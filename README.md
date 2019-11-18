@@ -13,6 +13,6 @@ This is a restaurant webpage with a site, where you can see a menucard.
 - [x] Use one bootstrap component
 - [x] two bootstrap colomuns layout
 - [x] Use one scss variable
-- [] One scss nesting
-- [] One scss inheritance
+- [x] One scss nesting
+- [x] One scss inheritance
 - [x] Make a redme.md file with describtion.      
