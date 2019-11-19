@@ -11,6 +11,25 @@ th, td {
 th{
   background-color: lightgrey;
 }
+#bigText{
+    font-size: 50px;
+    text-align: center;
+}
+
+#aboutUsHeading{
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#space{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.img-thumbnail{
+    max-width: 150px;
+    max-height: 150px;
+}
+
 .jumbotron{
   background-image: url("../img/vacation-2302009_1920.jpg");
   background-size: cover;

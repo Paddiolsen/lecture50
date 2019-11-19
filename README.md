@@ -5,6 +5,14 @@ Web Programming with Python and JavaScript
 This is a restaurant webpage with a site, where you can see a menucard.
 🍔 🍕 🍷
 
+Homepage has a image ind a jumbotron with a navigationbar to the other pages.
+
+Menucard page has a unordered list with names of different menus you can order 🥗
+
+The about page will show a
+
+The contact page has two bootstrap collumns with contact info for two different resturants. 
+
 - [x] Must have 4 different html pages
 - [x] At least one Ul/OL
 - [x] At least one stylesheet

@@ -25,6 +25,12 @@ th, td {
 th{
   background-color: {$color};
 }
+
+#bigText{
+    font-size: 50px;
+    text-align: center;
+}
+
 .jumbotron{
   background-image: url("../img/vacation-2302009_1920.jpg");
   background-size: 100%;
